@@ -1,16 +1,17 @@
 {
-  "name": "geek-profile",
-  "version": "0.0.1",
-  "description": "A geek profile maker based on markdown.",
+  "name": "geekprofile",
+  "version": "0.5.1",
+  "description": "A geek profile maker using markdown.",
   "main": "",
   "scripts": {
-    "bootstrap":"pagic profile",
-    "build":"cd profile && pagic build",
-    "release":"npm run build;cp -rf profile/public/* ./docs",
+    "bootstrap": "pagic profile",
+    "build": "cd profile && pagic build",
+    "release": "npm run build;cp -rf profile/public/* ./docs",
     "clean": "rm -rf docs; rm -rf profile/public",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "CosmoX",
+  "author": "Jade Thornton",
+  "repository": "https://github.com/raindeer44/geekprofile",
   "license": "MIT",
   "devDependencies": {
     "pagic": "^0.5.0"
