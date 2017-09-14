@@ -1,29 +1,42 @@
-# Geek Profile
+# GeekProfile
+
 Write your profile in Markdown and publish it on GitHub Page.
 - Demo: http://hackjutsu.com/geek-profile/
 
-## Bootstrap
+
+## Install dependencies
+
 ```bash
-yarn
+npm install
 ```
 
+
 ## Customize your Profile
+
 - Customize your profile/CV/resume at `profile/src/index.md`.
 - Put your customized CSS in `profile/src/css/site.css`.
 
+
 ## Build
+
 ```bash
-yarn run build
+npm run-script build
 ```
 Static website will be generated at `profile/public`.
 
+
 ## Release
+
 ```bash
-yarn run release
+npm run-script release
 ```
 Static website will be generated and moved to `./docs`.
 Push this project to your GitHub repo's master branch and set `master branch /docs folder` as the GitHub Page source.
 
 
+
 # License
-[MIT @CosmoX](./LICENSE)
+
+[MIT @Raindeer44](./LICENSE)
+
+Forked from [geek-profile by CosmoX](https://github.com/cosmox/geek-profile)
