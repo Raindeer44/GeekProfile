@@ -14,10 +14,11 @@ footer {
 }
 
 .profile {
-    margin: 0 10%;
+    margin: 0 16vw;
     font-family: Consolas, Menlo, Monaco, "Courier New", monospace;
 }
 
 p, li {
     font-size: 14px;
+    padding: 0.1em 0;
 }
