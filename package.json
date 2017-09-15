@@ -1,13 +1,13 @@
 {
   "name": "geekprofile",
-  "version": "0.5.1",
+  "version": "0.5.2",
   "description": "A geek profile maker using markdown.",
   "main": "",
   "scripts": {
     "bootstrap": "pagic profile",
     "build": "cd profile && pagic build",
-    "release": "npm run build;cp -rf profile/public/* ./docs",
-    "clean": "rm -rf docs; rm -rf profile/public",
+    "release": "npm run build; mkdir -p ./docs; cp -rf profile/public/* ./docs",
+    "clean": "rm -rf ./docs; rm -rf ./profile/public",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Jade Thornton",

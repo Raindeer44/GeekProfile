@@ -1,7 +1,7 @@
 # GeekProfile
 
-Write your profile in Markdown and publish it on GitHub Page.
-- Demo: http://hackjutsu.com/geek-profile/
+Write your profile in Markdown.
+- Demo: <https://jmthornton.net/geekprofile>
 
 
 ## Install dependencies
@@ -22,16 +22,19 @@ npm install
 ```bash
 npm run-script build
 ```
+
 Static website will be generated at `profile/public`.
 
 
-## Release
+## Build for release
 
 ```bash
 npm run-script release
 ```
+
 Static website will be generated and moved to `./docs`.
-Push this project to your GitHub repo's master branch and set `master branch /docs folder` as the GitHub Page source.
+
+For a version more suited for use with GitHub pages, try out this project's parent, [geek-profile by CosmoX](https://github.com/cosmox/geek-profile).
 
 
 

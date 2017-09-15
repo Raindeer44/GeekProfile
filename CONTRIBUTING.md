@@ -1,4 +1,4 @@
-# Contributing to geek-profile
+# Contributing to GeekProfile
 
 :+1::tada: First off, thanks for taking the time to contribute! :tada::+1:
 
