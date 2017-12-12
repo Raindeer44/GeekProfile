@@ -20,7 +20,7 @@ npm install
 ## Build
 
 ```bash
-npm run-script build
+npm run build
 ```
 
 Static website will be generated at `profile/public`.
@@ -29,7 +29,7 @@ Static website will be generated at `profile/public`.
 ## Build for release
 
 ```bash
-npm run-script release
+npm run release
 ```
 
 Static website will be generated and moved to `./docs`.
